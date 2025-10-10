@@ -33,5 +33,8 @@ public class Position {
 		return getRow() + ", " + getColumn();
 	}
 	
-	
+	public void setValues(int row, int collumn) {
+		this.row = row;
+		this.column = collumn;
+	}
 }
